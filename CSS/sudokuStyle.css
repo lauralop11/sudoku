@@ -1,0 +1,30 @@
+.containerSudoku {
+    width: 60%;
+    margin: auto;
+}
+.case {
+    border: dotted gray 1px;
+    height: 3rem;
+    width: 3rem;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.tableau { 
+    border-bottom: solid black 2px;
+}
+
+.ligneVer {
+    border-left: solid black 2px;
+}
+.ligneHor {
+    border-top: solid black 2px;
+}
+button {
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 1rem;
+    margin: 2rem;
+    border-radius: 30%;
+    border-color: gray;
+
+}
